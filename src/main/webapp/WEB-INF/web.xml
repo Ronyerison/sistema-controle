@@ -21,10 +21,10 @@
 		<param-name>javax.faces.FACELETS_REFRESH_PERIOD</param-name>
 		<param-value>0</param-value>
 	</context-param>
-<!-- 	<context-param> -->
-<!-- 		<param-name>javax.faces.FACELETS_RESOURCE_RESOLVER</param-name> -->
-<!-- 		<param-value>br.ufpi.tce.sagresWeb.util.FilesystemResourceResolver</param-value> -->
-<!-- 	</context-param> -->
+	<context-param>
+		<param-name>javax.faces.FACELETS_RESOURCE_RESOLVER</param-name>
+		<param-value>br.ufpi.rony.sistema.util.FilesystemResourceResolver</param-value>
+	</context-param>
 	<!-- modificando tema pradrão do primefaces -->
 	<context-param>
 		<param-name>primefaces.THEME</param-name>
